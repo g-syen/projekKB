@@ -486,6 +486,10 @@ public class programRuleBased extends javax.swing.JFrame {
                 depression np = new depression(boolArr, points);
                 np.setVisible(true);
                 this.setVisible(false);
+            } else{
+                hasil np = new hasil(boolArr, points);
+                np.setVisible(true);
+                this.setVisible(false);
             }
         }
         
